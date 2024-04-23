@@ -37,6 +37,7 @@ nav ul li{
 }
 a{
     color: #2C2C54;
+    text-decoration: none;
 }
 .container{
     max-width: 1300px;
