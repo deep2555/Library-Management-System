@@ -35,6 +35,83 @@ nav ul li{
     margin-right: 20px;
     
 }
+
+
+
+
+
+
+.sub-menu-wrap{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 280px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #ECECEC;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h2{
+    font-style: italic;
+    font-size: 14px;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 10px 0 8px;
+}
+
+.sub-menu-links{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2C2C54;
+    margin: 12px 0;
+}
+.sub-menu-links p{
+    width: 100%;
+    font-size: 14px;
+    color: #2C2C54;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-menu-links img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+
+}
+
+.sub-menu-links span{
+    font-size: 22px;
+}
+.sub-menu-links:hover span{
+    transform: translate(5px);
+}
+.sub-menu-links:hover p{
+   font-weight: 600; 
+}
 a{
     color: #2C2C54;
     text-decoration: none;
