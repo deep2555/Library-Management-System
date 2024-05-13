@@ -1,7 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Insert title here</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -36,6 +38,11 @@
                             <h2>Deepanshu Prashar</h2>
                         </div>
                         <hr>
+                         <a href="#" class="sub-menu-links">
+                            <img src="pictures/profile.svg" alt="not found">
+                            <p>Login</p>
+                            <span>></span>
+                        </a>
                         <a href="#" class="sub-menu-links">
                             <img src="pictures/profile.svg" alt="not found">
                             <p>Edit Profile</p>
@@ -59,7 +66,7 @@
                     </div>
                 </div>	 
 			</div>
-			<div class="row">
+			<div class="indexRow">
 				<div class="col2">
 					<h1>
 						Discover, Borrow, and Explore <br> With New Style!
@@ -68,7 +75,7 @@
 						Ignite Your Reading Experience: Boundless E-books, Audiobooks &
 						Resources. Any Device. Effortless Immersion. Unleash the Power of
 						Digital Literature!</p>
-					<a href="#" class="btn">Explore Now</a>
+					<a href="#" class="button">Explore Now &#8594</a>
 				</div>
 				<div class="col2">
 					<img src="pictures\books.jpg" alt=" Not found" width="550px">
@@ -78,6 +85,9 @@
 			</div>
 		</div>
 	</div>
+<!--  including the dynamic content-->
+<jsp:include page="mainBody.jsp"></jsp:include>
+
 <script src = "functionalCode.js"></script>
 
 </body>

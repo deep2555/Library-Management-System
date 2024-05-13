@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 3px;
+    background: border-box;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -12,6 +13,8 @@ h1{
 
 .header{
     background:  #ECECEC;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .navbar{
     display: flex;
@@ -35,12 +38,6 @@ nav ul li{
     margin-right: 20px;
     
 }
-
-
-
-
-
-
 .sub-menu-wrap{
     position: absolute;
     top: 15%;
@@ -122,7 +119,7 @@ a{
     padding-left: 25px;
     padding-right: 25px;
 }
-.row{
+.indexRow{
     display: flex;
     padding-top: 1%;
     flex-wrap: wrap;
@@ -137,12 +134,14 @@ a{
     padding-left: 25px;
     border-radius: 10%;
 }
-.btn{
+
+.button{
     display: inline-block;
     background-color: #474787;
     color: #ECECEC;
+    margin-left: 4%;
+    margin-top: 2%;
     padding: 8px 30px;
-    margin: 30px 0px;
     text-decoration: none;
     transition: 0.5s;
     border-radius: 12px;
