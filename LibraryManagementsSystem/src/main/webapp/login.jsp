@@ -26,6 +26,7 @@
 					<img class="lock" src="pictures/password.svg"></img>
 				</div>
 
+
 				<button>
 					Login <img src="pictures/rightArrow.svg" class="arrowRight"></img>
 				</button>
