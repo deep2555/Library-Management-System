@@ -102,18 +102,17 @@ form {
 
 
 
-button i {
+/* button i {
     margin-left: 10px;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-}
+} */
 
-button{
-
-    border: none;
-    width: 164px;
-    height: 51px;
-    margin: auto;
+.buttonLogin{
+    border-radius: 5%;
+    width: 141px;
+    height: 46px;
+    /* margin: auto; */
     margin-top: 40px;
     cursor: pointer;
     display: flex;
@@ -128,4 +127,5 @@ button{
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: .3s;
     transition-duration: .3s;
+    text-decoration: none;
 }

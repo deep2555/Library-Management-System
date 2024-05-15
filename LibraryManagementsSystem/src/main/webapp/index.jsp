@@ -75,7 +75,7 @@
 						Ignite Your Reading Experience: Boundless E-books, Audiobooks &
 						Resources. Any Device. Effortless Immersion. Unleash the Power of
 						Digital Literature!</p>
-					<a href="#" class="button">Explore Now &#8594</a>
+					<a href="#" class="buttonExplore">Explore Now &#8594</a>
 				</div>
 				<div class="col2">
 					<img src="pictures\books.jpg" alt=" Not found" width="550px">
