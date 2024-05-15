@@ -99,21 +99,18 @@ form {
     padding: 0;
     margin-bottom: 25px;
 }
-
-
-
 /* button i {
     margin-left: 10px;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 } */
 
-.buttonLogin{
+.button{
     border-radius: 5%;
     width: 141px;
     height: 46px;
     /* margin: auto; */
-    margin-top: 40px;
+    margin-top: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -129,3 +126,25 @@ form {
     transition-duration: .3s;
     text-decoration: none;
 }
+h4{
+	font-size: 13px;
+	font-family: sans-serif;
+    font-style: revert;
+    color: #2C2C54;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

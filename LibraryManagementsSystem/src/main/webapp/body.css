@@ -201,3 +201,29 @@ h3 {
 	transition: 0.5s;
 	border-radius: 12px;
 }
+
+.banner{
+	background: #ECECEC;
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%
+}
+
+.insideBanner{
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: auto;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+

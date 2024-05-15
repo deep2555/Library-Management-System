@@ -25,9 +25,11 @@
 					<input type="password" placeholder="Password" class="form-control">
 					<img class="lock" src="pictures/password.svg"></img>
 				</div>
-
-				<a href="#" class="buttonLogin">Login &#8594</a>
+				<div class = "btnRegDirect">
+				<a href="#" class="button">Login &#8594</a>
+				<h4> Don't have an Account? <a href="register.jsp">Register Now</a></h4>
 				
+				</div>
 
 
 			</form>

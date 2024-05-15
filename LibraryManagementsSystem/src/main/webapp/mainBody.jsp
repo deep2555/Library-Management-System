@@ -21,19 +21,19 @@
 		<div class="small-container2">
 			<img class="offer-img" alt="not found" src="pictures/account.svg">
 			<h3>
-				Free Shipping <br>above 50 Euro
+				Secure Payments <br>100% Secure & Safe
 			</h3>
 		</div>
 		<div class="small-container2">
 			<img class="offer-img" alt="not found" src="pictures/account.svg">
 			<h3>
-				Free Shipping <br>above 50 Euro
+				24/7 Support <br>Dedicated Support
 			</h3>
 		</div>
 		<div class="small-container2">
 			<img class="offer-img" alt="not found" src="pictures/account.svg">
 			<h3>
-				Free Shipping <br>above 50 Euro
+				10 days Return Policy <br> Without Damage
 			</h3>
 		</div>
 
@@ -152,7 +152,26 @@
 		</div>
 
 	</div>
+	
+	<!-- <div class = "banner">
+	<div class="insideBanner">
+			<img class="offer-img" alt="not found" src="">
+			<h3>
+				Free Shipping <br>above 50 Euro
+			</h3>
+		</div>
+	
+	</div> -->
+<div class="banner">
+		<div class="small-container2">
+			<img class="offer-img" alt="not found" src="">
+			<h3>
+				Free Shipping <br>above 50 Euro
+			</h3>
+		</div>
+		
 
+	</div>
 </body>
 
 </html>

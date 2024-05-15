@@ -38,7 +38,7 @@
                             <h2>Deepanshu Prashar</h2>
                         </div>
                         <hr>
-                         <a href="#" class="sub-menu-links">
+                         <a href="login.jsp" class="sub-menu-links">
                             <img src="pictures/profile.svg" alt="not found">
                             <p>Login</p>
                             <span>></span>
