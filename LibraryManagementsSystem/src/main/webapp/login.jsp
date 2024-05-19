@@ -13,10 +13,18 @@
 			<div class="image-holder">
 				<!-- add image on the left side -->
 				<img src="pictures/libraryS.jpeg" alt="not found">
+			
 			</div>
-			<form action="/login" method="">
+			<form action="/login" method="post">
 				<!-- add the heading into the form -->
 				<h3>Login</h3>
+				
+				<!-- Display the message if it exists -->
+				
+				<%String message = (String)request.getAttribute("message");
+				 response.getWriter().print(message);
+				
+				%>
 				<div class="form-group">
 					<input type="text" placeholder="Username or Email ID" class="form-control">
 					<img class="account" src="pictures/account.svg"></img>
