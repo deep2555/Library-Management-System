@@ -14,32 +14,32 @@
                 <!-- add image on the left side -->
                 <img src="pictures/libraryS.jpeg" alt="not found"> 
             </div>
-            <form action="/login" method = "">
+            <form action="register" method = "post">
                 <!-- add the heading into the form -->
                 <h3>Register</h3>
                 <div class="form-group">
-                    <input type="text" placeholder="First Name" class="form-control">
+                    <input type="text"  name= "username" placeholder="First Name" class="form-control">
                     <img class ="name" src="pictures/account.svg"></img>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Last Name" class="form-control">
+                    <input type="text" name ="lastname" placeholder="Last Name" class="form-control">
                     <img class ="account" src="pictures/account.svg"></img>
                 </div>
                 <div class="form-group">
-                    <input type="text" placeholder="Username & Email Id" class="form-control">
+                    <input type="text" name= "userEmail" placeholder="Username & Email Id" class="form-control">
                     <img class ="account" src="pictures/account.svg"></img>
                 </div>
                 
                 <div class = "form-group">
-                    <input type="password" placeholder="Password" class = "form-control">
+                    <input type="password" name = "password" placeholder="Password" class = "form-control">
                     <img class="lock" src="pictures/password.svg"></img>
                 </div>
                 <div class = "form-group">
-                    <input type="password" placeholder="Re-Enter Password" class = "form-control">
+                    <input type="password" name = "rePassword" placeholder="Re-Enter Password" class = "form-control">
                     <img class="lock" src="pictures/password.svg"></img>
                 </div>
 
-                <a href="#" class="button">Register &#8594</a>
+               <input type="submit" class="button" value="Register &#8594">
 
 
             </form>
